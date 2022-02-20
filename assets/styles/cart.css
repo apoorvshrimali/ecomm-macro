@@ -1,0 +1,77 @@
+:root{
+    --primary-color:#022143;
+    
+}
+.h-card{
+    width: 500px;
+    height: 200px;
+}
+.h-card input{
+    width: 50px;
+    height: 10px;
+}
+
+.h-card .price{
+    background-color: transparent !important;
+    color: var(--primary-color) !important;
+}
+.h-card .title{
+    background-color: transparent !important;
+    color: var(--primary-color) !important;
+}
+.h-card .quantity{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.quantity-tag{
+    background-color: transparent !important;
+    color: var(--primary-color) !important;
+}
+.h-card .strike-through{
+    text-decoration: line-through;
+    color: #5f5f5f !important;
+}
+.price-content{
+    display: flex;
+}
+
+.category-heading{
+    font-weight: 500;
+    font-size: 18px;
+    border-bottom: 1px solid #c3c3c370;
+    line-height: 32px;
+}
+
+.total{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    border-radius: 4px;
+}
+.total-division div{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 16px;
+}
+.total-amount{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    font-size: 18px;
+    border-top: 1px solid #c3c3c370;
+    line-height: 32px;
+
+}
+.total-heading{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.products{
+    margin-top: 32px;
+    display: flex;
+    justify-content:center;
+    column-gap:32px
+}
