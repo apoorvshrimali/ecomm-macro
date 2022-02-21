@@ -1,0 +1,39 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.form-box{
+    height: 500px;
+    width: 30%;
+    background-color: white;
+    padding: 4rem 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 32px;
+    width: 100%;
+}
+.input div{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    row-gap: 4px;
+}
+.input input{
+    padding: 12px 8px;
+    border: 1px solid #c3c3c370;
+    width: 100%;
+}
+.login-btn{
+    margin-top:2rem ;
+}

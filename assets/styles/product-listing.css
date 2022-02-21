@@ -1,0 +1,118 @@
+:root{
+    --active-color:#3B82F6;
+}
+
+main {
+    display: flex;
+}
+
+.side-nav {
+    background-color: white;
+    padding: 1rem 2rem;
+    box-shadow: -1px 15px 13px 0px #00000050;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header button {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    text-decoration: underline;
+
+}
+
+.heading {
+    font-weight: 500;
+
+}
+
+.checkbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.radio {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.range div {
+    display: flex;
+    column-gap: 16px;
+}
+
+.output {
+    min-width: 50px;
+}
+.product-listing{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    row-gap: 32px;
+    margin-top: 3rem;
+    margin-left: 3rem;
+
+}
+
+.product-listing .title {
+    text-align: center;
+    margin: 0;
+    margin-top: 1rem;
+    font-size: 18px;
+}
+
+.product-listing .price {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.v-card {
+    width: 300px;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.v-card img {
+    width: 100%;
+    height: 50%;
+}
+.v-card a{
+    color: white;
+    background-color: var(--primary-color);
+    border: none;
+    width: max-content;
+    padding: 0.5rem 3rem;
+    border-radius: 4px;
+}
+.in-cart{
+    background-color: var(--active-color) !important;
+}
+.wishlist{
+    position: absolute;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0.5rem;
+    right: 0.5rem;
+}
