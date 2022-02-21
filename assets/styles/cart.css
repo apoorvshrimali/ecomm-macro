@@ -75,3 +75,7 @@
     justify-content:center;
     column-gap:32px
 }
+.h-card img{
+    width: 30%;
+    
+}
